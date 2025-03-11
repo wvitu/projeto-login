@@ -37,13 +37,16 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.616);
+
+    transition: width 0.3s heigth 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: url(../imagens/pexels-edward-jenner-4252667.jpg) no-repeat;
+    background: url(../imagens/predio1.jpg) no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    background-position: center;
     height: 200px;
 }
 
